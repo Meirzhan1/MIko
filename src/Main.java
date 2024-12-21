@@ -19,13 +19,12 @@ public class Main {
                 students.add(student);
             }
 
-            scanner.close(); // Close the scanner after use
+            scanner.close();
 
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        // Print all students
         for (Student student : students) {
             System.out.println(student.toString());
         }
