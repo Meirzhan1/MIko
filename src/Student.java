@@ -1,17 +1,17 @@
 public class Student {
-    // Attributes
+    
     private String name;
     private String surname;
     private int age;
-    private boolean gender; // true for Male, false for Female
+    private boolean gender; 
     private double gpa;
 
-    // Constructor to initialize the attributes
+  
     public Student() {
-        // Default constructor
+        
     }
 
-    // Getters and Setters
+
     public String getName() {
         return name;
     }
@@ -49,7 +49,7 @@ public class Student {
     }
 
 
-    // Method to return a string representation of the student
+
     @Override
     public String toString() {
         String genderString = gender ? "Male" : "Female";
